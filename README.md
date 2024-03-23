@@ -8,6 +8,6 @@ Este repositório é dedicado aos exercícios e desafios praticados durante as a
 
 Agradeço sinceramente ao [Prof° Guanabara](https://github.com/gustavoguanabara) por proporcionar um ambiente de aprendizado tão valioso.
 
-🚀 **Acesse os materiais [aqui]().**
+🚀 **Acesse os materiais [aqui](devdecfalter.github.io/estudos/).**
 
 Fique à vontade para explorar os exercícios e acompanhar meu progresso neste meu percurso de aprendizado em HTML5 e CSS3! 📖💻
