@@ -14,10 +14,6 @@
             background-color: gray;
         }
 
-        h1 {
-            box-shadow: 1px 1px 6px 8px rgba(0, 0, 0, 0.39);
-        }
-
         header {
             background-color: #fff;
             margin: 10px;
@@ -27,7 +23,7 @@
         nav {
             background-color: rgb(100, 100, 100);
             padding: 3px;
-            box-shadow: 1px 6px 0px 0px rgba(0, 0, 0, 0.404); /*É possível criar esta mesma sombra utilizando o DevTools (F12). Mas antes para que funcione a declaração já deve estar feita.*/
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*É possível criar esta mesma sombra utilizando o DevTools (F12). Mas antes para que funcione a declaração já deve estar feita.*/
         }
 
         nav > a{
@@ -41,6 +37,8 @@
             background-color: #fff;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
         }
 
         article {
@@ -62,6 +60,14 @@
 
         footer > p {
             margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 50%;
         }
     </style>
 
@@ -108,6 +114,10 @@
     <footer>
         <p>Desenvolvido pelo CursoemVideo</p>
     </footer>
+
+    <div id="bola">
+
+    </divid>
 </body>
 
 </html>
@@ -125,3 +135,26 @@
     -Utilizando o DevTools, temos também como criar nossas sombras de forma extremamente facil, formantando como queremos que ela fique e só copiar e colar na declaração 'box-shadow'.
 
  -->
+
+ <!-- 
+
+    Capítulo 16 Aula 6 – Caixas com vértices arredondados - 13/04/2024 - 08:21
+
+    -A declaração 'border-radius' assim como a 'box-shadow', ela já vem com um shorhand por padrão, por exemplo, 'box-radius: 33px;', porém, há as formataçõs individuais dela, que são, com base na 'box-radius:33px;': 
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;.
+
+    -Existe alguns modos de se aplicar o 'border-radius':
+    1° main {border radius: 10px;}
+    2° main {border radius: 10px 10px;}
+    3° main {border radius: 10px 10px 10px 10px;}
+    =
+    1° Os 10px é aplicado para cada um dos quatro cantos
+    2° Assim como pode ser usado esse shorthand na 'margin' no 'box-radius' também.
+    3° Cada canta da borda é formatada de maneira independente
+    
+    
+  -->
