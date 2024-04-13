@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Brian Muniz Silveira">
-    <meta name="description" content="Capítulo 16 Aula 4 – Grouping Tags em HTML5">
+    <meta name="description" content="Capítulo 16 Aula 4/Aula 05/Aula 06">
     <title>Grouping Tag</title>
 
     <style> /*Formatações da página*/
         body {
             font-family: monospace;
             background-color: gray;
+        }
+
+        h1 {
+            box-shadow: 1px 1px 6px 8px rgba(0, 0, 0, 0.39);
         }
 
         header {
@@ -23,6 +27,7 @@
         nav {
             background-color: rgb(100, 100, 100);
             padding: 3px;
+            box-shadow: 1px 6px 0px 0px rgba(0, 0, 0, 0.404); /*É possível criar esta mesma sombra utilizando o DevTools (F12). Mas antes para que funcione a declaração já deve estar feita.*/
         }
 
         nav > a{
@@ -51,7 +56,11 @@
             background-color: #000;
             color: #fff;
             text-align: center;
-            padding: 1px;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
             margin: 0px;
         }
     </style>
@@ -88,6 +97,8 @@
 
             <article>
                 <!--
+                        11/04/2024 - 9:55
+
                      As Groupings Tags, podem ser utilizadas de formas diversificadas, neste exemplo temos um 'article' e junto com um 'aside', mas podemos ter um um 'artcile' + 'aside' + 'article, ou 'section' + 'main' + 'header' + 'article'. Há uma certa diversidade de utilização das Grouping Tags 
                 -->
             </article>
@@ -100,3 +111,17 @@
 </body>
 
 </html>
+
+<!-- 
+
+    Capítulo 16 Aula 5 – Sombra nas Caixas - 13/04/2024 - 07:52
+
+    -Tomar cuidado com a utilização de sombras, não precisa deixar explícito que há sombras em tal elemento. 
+
+    -A declaração '1px 1px 1px black' tem o seguinte significado, o primeiro '1px' é o pixel na direção horizontal, o segundo '1px' é na vertical e o terceiro '1px' é o espalhamento da sombra, e a ultima declaração é a cor, neste caso, cor preta, #000 ou black. 
+
+    -Tomar cuiadado com a questão das cores, sempre manter a sombra na cor preta por padrão e aplicar o efeito de transparência a ela.
+
+    -Utilizando o DevTools, temos também como criar nossas sombras de forma extremamente facil, formantando como queremos que ela fique e só copiar e colar na declaração 'box-shadow'.
+
+ -->
