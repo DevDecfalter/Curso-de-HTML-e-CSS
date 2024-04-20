@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+h1, h2 {
+    font-family: 'idroid';
+}
+
+.lista-customizada {
+    list-style: none;
+}
+
+.item-lista::before {
+    content:🔗 ;
+}
